@@ -256,7 +256,7 @@ class MainClass:
         self.X_test=pE.X_test #Assign variables ytrain
         self.Y_test=pE.Y_test #Assign variables ytrain
         
-        #Step 3 TRAIN MODEL
+        #Step 3 & 4  TRAIN MODEL AND TEST DATA
         cR=ComputeRegressions(self.X_train, self.Y_train, self.X_test)
         self.Y_pred_lrc=cR.Compute_LogisticClassification()
         self.Y_pred_knnc=cR.Compute_KnearestNeighboursClassification()
@@ -265,9 +265,6 @@ class MainClass:
         self.Y_pred_nbc=cR.Compute_NaiveBayesClassification()
         self.Y_pred_dtc=cR.Compute_DescisionTreeClassification()
         self.Y_pred_rfc=cR.Compute_RandomForestClassification()
-
-        
-        #Step 4 TEST DATA
         vD=VisualizeData()
         
         #Step 5 CHECK PERFORMANCE AND IMPROVE
