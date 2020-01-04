@@ -315,14 +315,28 @@ displayresult_nbc=mc.Pdata_nbc
 displayresult_dtc=mc.Pdata_dtc
 displayresult_rfc=mc.Pdata_rfc
 
+X_train=mc.X_train 
+Y_train=mc.Y_train 
+X_test=mc.X_test 
+Y_test=mc.Y_test 
 
-#Incorrect predictions 
-#441  dtc
-#318  knnc
-#281  ksvc
-#282  lrc
-#746  nbc
-#313 rfc
-#281 svc
 
-#189771
+"""
+    #####  Computation Summary  #####
+    Total dataset observation is 11,162
+    Train Size is : 8929
+    Test Size is: 2233
+    
+    Below are number of incorrect predictions from a test size of 2233
+    Decision Tree Classification  ==>  441  
+    K-Nearest Neighbors (K-NN)   ==>   318 
+    Kernel SVM  ==> 281  
+    Logistic Regression  ==> 282  
+    Naive Bayes  ==> 746  
+    Random Forest Classification  ==>  313 
+    Support Vector Machine (SVM)  ==>  281 
+
+"""
+
+
+
