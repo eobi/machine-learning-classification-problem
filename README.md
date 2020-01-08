@@ -1,9 +1,8 @@
 # machine-learning-classification-problem
 
-Title: Bank customer and their loan request prediction insight using eight (8) Machine learning classification solutions.
+Title: Quick overview of a machine learning classification problem.
 
-
-Subtitle: A detailed look from different classification algorithms.
+Subtitle: Creating an ensemble of loan prediction models on a bank loan customer dataset.
 
 
 Introduction: 
@@ -39,9 +38,7 @@ The seven (7) machine learning classification methods used in our context includ
 •	Decision Tree Classification
 •	Random Forest Classification
 
-Read up more about each listed regression. Okay!!! so enough of the theory let’s look into the practical of this writeup.
-Going about this machine learning project we need to follow the below steps:
-
+Read up more of this article on ...
  
 
 
